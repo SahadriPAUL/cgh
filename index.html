@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>School Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <style>
+    .travel_mainDiv {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .travel_mainDiv img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    .travel_mainDiv h4 {
+      margin-top: 10px;
+    }
+
+    .travel_mainDiv p {
+      margin-top: 5px;
+    }
+
+    .bg {
+      background-color: #007bff;
+      color: white;
+      padding: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .achivement-text {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .achivement-text img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    .achivement-text h5 {
+      margin-top: 10px;
+    }
+
+    .achivement-text p {
+      margin-top: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">School Website</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#campus_life">Campus Life</a></li>
+          <li><a href="#achievement">Achievements</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <h2 class="page-header" id="campus_life">Campus Life</h2>
+    <div class="travel_mainDiv">
+      <img src="church.jpg" alt="School Church">
+      <h4><kbd>School Church</kbd></h4>
+      <hr>
+      <h5 class="text-success text-uppercase">Established in 1948</h5>
+      <p class="text-muted">Write something about the mentioned place</p>
+    </div>
+
+    <div class="travel_mainDiv">
+      <img src="st2.jpg" alt="School Library">
+      <h4><kbd>School Library</kbd></h4>
+      <hr>
+      <h5 class="text-success text-uppercase">Established in 1940</h5>
+      <p class="text-muted">Write something about the mentioned place</p>
+    </div>
+
+    <div class="travel_mainDiv">
+      <img src="st3.jpg" alt="School Auditorium">
+      <h4><kbd>School Auditorium</kbd></h4>
+      <hr>
+      <h5 class="text-success text-uppercase">Established in 1940</h5>
+      <p class="text-muted">Write something about the mentioned place</p>
+    </div>
+
+    <h2 class="page-header" id="achievement">School Achievements</h2>
+
+    <div class="bg primary_movie head" data-toggle="collapse" data-target="#school_achievement">
+      Inter School Computer on Environment <i class="fa fa-caret-down"></i>
+    </div>
+
+    <div id="school_achievement" class="collapse">
+      <div class="achievement-text">
+        <img src="se1.jpg" class="img-responsive img-thumbnail" alt="School Achievement">
+        <h5 class="text-success text-uppercase">Won the first Inter-school competition
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+        </h5>
+        <p>Write about this achievement</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
